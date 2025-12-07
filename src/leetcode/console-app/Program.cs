@@ -1,6 +1,5 @@
 ﻿using console_app;
-
-
+Console.WriteLine("Starting test...");
 
 #region RomanToInteger
 
@@ -18,12 +17,12 @@ Console.WriteLine("Result: " + result);
 #region CountOddNumbers
 
 //https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/
-
+/*
 int low = int.Parse(Console.ReadLine()!);
 int high = int.Parse(Console.ReadLine()!);
 
 CountOddNumbers obj = new();
 int result = obj.CountOdds(low, high);
 Console.WriteLine("Result: " + result);
-
+*/
 #endregion
