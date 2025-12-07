@@ -2,7 +2,7 @@
 
 namespace console_app;
 
-public class RomanToInteger
+public sealed class RomanToInteger
 {
     public int RomanToInt(string s)
     {
