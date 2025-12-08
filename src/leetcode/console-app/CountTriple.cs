@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/count-square-sum-triples/description/
 namespace console_app;
 
-public class CountTriple
+public sealed class CountTriple
 {
     public int CountTriples(int n)
     {

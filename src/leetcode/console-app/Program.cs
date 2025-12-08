@@ -1,4 +1,5 @@
 ﻿using console_app;
+
 Console.WriteLine("Starting test...");
 
 #region RomanToInteger
@@ -25,6 +26,7 @@ CountOddNumbers obj = new();
 int result = obj.CountOdds(low, high);
 Console.WriteLine("Result: " + result);
 */
+
 #endregion
 
 #region CountTriple
@@ -36,6 +38,25 @@ int input = int.Parse(Console.ReadLine()!);
 CountTriple obj = new();
 int result = obj.CountTriples(input);
 Console.WriteLine("Result: " + result);
+*/
+
+#endregion
+
+#region PlusOneDigit
+
+//https://leetcode.com/problems/plus-one/description/
+
+/*
+int[] input = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+PlusOneDigit obj = new();
+int[] result = obj.PlusOne(input);
+Console.Write("[ ");
+foreach (int r in result)
+{
+    Console.Write(r + " ");
+}
+
+Console.Write(" ]");
 */
 
 #endregion
