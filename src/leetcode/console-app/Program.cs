@@ -26,3 +26,16 @@ int result = obj.CountOdds(low, high);
 Console.WriteLine("Result: " + result);
 */
 #endregion
+
+#region CountTriple
+
+//https://leetcode.com/problems/count-square-sum-triples/description/
+
+/*
+int input = int.Parse(Console.ReadLine()!);
+CountTriple obj = new();
+int result = obj.CountTriples(input);
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
