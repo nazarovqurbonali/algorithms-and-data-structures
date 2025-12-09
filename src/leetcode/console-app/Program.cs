@@ -60,3 +60,16 @@ Console.Write(" ]");
 */
 
 #endregion
+
+#region CountSpecialTriplets
+
+//https://leetcode.com/problems/count-special-triplets/description
+/*
+int[] input = [6, 3, 6];
+CountSpecialTriplets obj = new();
+int result = obj.SpecialTriplets(input);
+
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
