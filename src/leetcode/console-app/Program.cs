@@ -73,3 +73,16 @@ Console.WriteLine("Result: " + result);
 */
 
 #endregion
+
+#region SplitWithMinNum
+
+//https://leetcode.com/problems/split-with-minimum-sum/description/
+
+/*
+int num = 4234;
+SplitWithMinNum obj = new();
+int result = obj.SplitNum(num);
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
