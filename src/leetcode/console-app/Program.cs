@@ -1,4 +1,6 @@
-﻿using console_app;
+﻿using System.Text;
+using System.Text.Json;
+using console_app;
 
 Console.WriteLine("Starting test...");
 
@@ -82,6 +84,22 @@ Console.WriteLine("Result: " + result);
 int num = 4234;
 SplitWithMinNum obj = new();
 int result = obj.SplitNum(num);
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
+
+
+
+#region AddBinary
+
+//https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=math                                                                                                                                                                             
+
+/*
+string a = "11";
+string b = "1";
+Binary obj = new();
+string result = obj.AddBinary(a,b);
 Console.WriteLine("Result: " + result);
 */
 
