@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=math                                                                                                                                                                             
+//https://leetcode.com/problems/binary-search/description/
 namespace console_app;
 
 public sealed class Binary
@@ -25,10 +26,32 @@ public sealed class Binary
                 sum += b[j] - '0';
                 j--;
             }
-            
-            result = sum % 2 + result; 
-            carry = sum / 2;          
+
+            result = sum % 2 + result;
+            carry = sum / 2;
         }
+
         return result;
+    }
+
+
+    public int BinarySearch(int[] arr, int target)
+    {
+        int low = 0;
+        int height = arr.Length - 1;
+
+        while (low <= height)
+        {
+            int mid = low + (height - low) / 2;
+
+            if (arr[mid] == target)
+                return mid;
+            else if (arr[mid] < target)
+                low = mid + 1;
+            else
+                height = mid - 1;
+        }
+
+        return -1;
     }
 }

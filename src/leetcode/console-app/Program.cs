@@ -89,9 +89,7 @@ Console.WriteLine("Result: " + result);
 
 #endregion
 
-
-
-#region AddBinary
+#region Binary
 
 //https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=math                                                                                                                                                                             
 
@@ -103,4 +101,16 @@ string result = obj.AddBinary(a,b);
 Console.WriteLine("Result: " + result);
 */
 
+
+//https://leetcode.com/problems/binary-search/description/
+
+/*
+int[] arr = [84, 455, 74, 2, 555, 6, 888, 2, 3, 787, 58, 99];
+int target = 58;
+Array.Sort(arr);
+
+Binary obj = new();
+int result = obj.BinarySearch(arr, target);
+Console.WriteLine("Result: " + result);
+*/
 #endregion
