@@ -113,4 +113,17 @@ Binary obj = new();
 int result = obj.BinarySearch(arr, target);
 Console.WriteLine("Result: " + result);
 */
+
+#endregion
+
+#region Sqrt
+
+//https://leetcode.com/problems/sqrtx/description/
+
+/*
+Sqrt obj = new();
+int result = obj.MySqrt(81);
+Console.WriteLine("Result: " + result);
+*/
+
 #endregion
