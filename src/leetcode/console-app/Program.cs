@@ -127,3 +127,15 @@ Console.WriteLine("Result: " + result);
 */
 
 #endregion
+
+#region Climb
+
+//https://leetcode.com/problems/climbing-stairs/description
+
+/*
+Climb obj = new();
+int result = obj.ClimbStairs(45);
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
