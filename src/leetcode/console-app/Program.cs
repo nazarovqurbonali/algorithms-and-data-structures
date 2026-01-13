@@ -139,3 +139,21 @@ Console.WriteLine("Result: " + result);
 */
 
 #endregion
+
+#region ExcelSheet
+
+/*
+ExcelSheet obj = new();
+string result = obj.ConvertToTitle(539876543);
+Console.WriteLine("Result: " + result);
+*/
+
+
+
+ExcelSheet obj = new();
+int result = obj.TitleToNumber("AB");
+Console.WriteLine("Result: " + result);
+
+
+
+#endregion
