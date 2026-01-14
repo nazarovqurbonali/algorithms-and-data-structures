@@ -155,7 +155,6 @@ int result = obj.TitleToNumber("AB");
 Console.WriteLine("Result: " + result);
 */
 
-
 #endregion
 
 #region HappyNumber
@@ -168,8 +167,10 @@ Console.WriteLine("Result: "+result);
 
 #endregion
 
-#region MyRegion
+#region Digit
 
-
+Digit obj = new();
+int result = obj.AddDigits(8376);
+Console.WriteLine("Result: " + result);
 
 #endregion
