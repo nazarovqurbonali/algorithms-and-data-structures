@@ -169,8 +169,13 @@ Console.WriteLine("Result: "+result);
 
 #region Digit
 
-Digit obj = new();
-int result = obj.AddDigits(8376);
-Console.WriteLine("Result: " + result);
+//https://leetcode.com/problems/add-digits/description
+//https://leetcode.com/problems/ugly-number/description
 
+/*
+Digit obj = new();
+//int result = obj.AddDigits(8376);
+bool result = obj.IsUgly(6);
+Console.WriteLine("Result: " + result);
+*/
 #endregion
