@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/add-digits/description
 //https://leetcode.com/problems/ugly-number/description
+//https://leetcode.com/problems/missing-number
+
 namespace console_app;
 
 public sealed class Digit
@@ -34,5 +36,15 @@ public sealed class Digit
         }
 
         return n == 1;
+    }
+
+    public int MissingNumber(int[] nums)
+    {
+        int num = nums.Length;
+        int total = num * (num + 1) / 2;
+        int sum = 0;
+        foreach (int n in nums)
+            sum += n;
+        return total - sum;
     }
 }

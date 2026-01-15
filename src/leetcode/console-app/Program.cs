@@ -172,10 +172,13 @@ Console.WriteLine("Result: "+result);
 //https://leetcode.com/problems/add-digits/description
 //https://leetcode.com/problems/ugly-number/description
 
-/*
+
 Digit obj = new();
 //int result = obj.AddDigits(8376);
-bool result = obj.IsUgly(6);
+//bool result = obj.IsUgly(6);
+int result = obj.MissingNumber([3,0,1]);
 Console.WriteLine("Result: " + result);
-*/
+
+
+
 #endregion
