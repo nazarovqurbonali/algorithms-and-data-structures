@@ -194,3 +194,15 @@ Console.WriteLine("Result: " + result);
 */
 
 #endregion
+
+#region SolutionRemoveDuplicates
+
+//https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=array
+
+/*
+SolutionRemoveDuplicates obj = new();
+int result = obj.RemoveDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]);
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
