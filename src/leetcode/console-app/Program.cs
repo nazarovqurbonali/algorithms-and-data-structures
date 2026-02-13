@@ -206,3 +206,14 @@ Console.WriteLine("Result: " + result);
 */
 
 #endregion
+
+#region SolutionRemoveElement
+//https://leetcode.com/problems/remove-element/?envType=problem-list-v2&envId=array
+
+/*
+SolutionRemoveElement obj = new();
+int result = obj.RemoveElement([0, 0, 1, 1, 1, 2, 2, 3, 3, 4],2);
+Console.WriteLine("Result: " + result);
+*/
+
+#endregion
