@@ -14,7 +14,7 @@ public sealed class ExcelSheet
             int remainder = columnNumber % 26;
             char letter = (char)('A' + remainder);
 
-            result.Append(letter);
+            result.Append(letter);  
             columnNumber /= 26;
         }
 

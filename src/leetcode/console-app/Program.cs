@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 using System.Text.Json;
 using console_app;
 
@@ -172,13 +173,24 @@ Console.WriteLine("Result: "+result);
 //https://leetcode.com/problems/add-digits/description
 //https://leetcode.com/problems/ugly-number/description
 
-
+/*
 Digit obj = new();
 //int result = obj.AddDigits(8376);
 //bool result = obj.IsUgly(6);
 int result = obj.MissingNumber([3,0,1]);
 Console.WriteLine("Result: " + result);
+*/
 
+#endregion
 
+#region LongestCommonPref
+
+//https://leetcode.com/problems/longest-common-prefix/description/?envType=problem-list-v2&envId=array
+
+/*
+LongestCommonPref obj = new();
+string result = obj.LongestCommonPrefix(["flower", "flow", "flight"]);
+Console.WriteLine("Result: " + result);
+*/
 
 #endregion
