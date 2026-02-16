@@ -1,5 +1,9 @@
 //https://leetcode.com/problems/add-binary/?envType=problem-list-v2&envId=math                                                                                                                                                                             
 //https://leetcode.com/problems/binary-search/description/
+//https://leetcode.com/problems/reverse-bits/?envType=daily-question&envId=2026-02-16
+
+using System.Text;
+
 namespace console_app;
 
 public sealed class Binary
@@ -54,4 +58,19 @@ public sealed class Binary
 
         return -1;
     }
+
+    public int ReverseBits(int n)
+    {
+        int result = 0;
+
+        for (int i = 0; i < 32; i++)
+        {
+            result <<= 1;
+            result |= n & 1;
+            n >>= 1;
+        }
+
+        return result;
+    }
+
 }
